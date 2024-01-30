@@ -10,7 +10,7 @@ const config: StorybookConfig = {
     name: "@storybook/nextjs",
     options: {
       builder: {
-        useSWC: true,
+        useSWC: false,
       },
     },
   },
